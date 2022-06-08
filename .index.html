@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>HEX TO RGB</title>
+</head>
+<body>
+<div class="container bg-light">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-5 m-5 ">
+            <div class="card">
+                <div class="card-header bg-warning">
+                    <h1 class="text-center text-white ">HEX TO RGB COLOR</h1>
+                </div>
+                <div class="card-body  shadow">
+                    <div class="msg">
+
+                    </div>
+                    <form action="" id="colorForm">
+                        <div class="my-3 text-center">
+                            <!-- hex color code input here  -->
+                         <label class="hexLabelText my-3 p-2 h4">HEX COLOR</label>
+                         <input name="hex" class="form-control" type="text">
+                        </div>
+
+                        <!-- button for submit  -->
+                        <div class="my-3 d-flex justify-content-center">
+                            <button class=" btn btn-warning form-control text-white" type="submit">Convert</button>
+                        </div>
+
+                        <!-- rgb result div  -->
+
+                        <div class="my-3 text-center">
+                            <label class="rgbLabelText my-3 p-2 h4" >RGB COLOR</label>
+                            <input class="form-control result" value="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="function.js"></script>
+<script src="app.js"></script>
+   
+</body>
+</html>
